@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Siliconsalad_Contacts" title="Historisation Contacts" module="Siliconsalad_Contacts" sortOrder="20" dependsOnModule="Siliconsalad_Contacts" resource="Siliconsalad_Contacts::contacts"/>
+        <add id="Siliconsalad_Contacts::index" title="Historisation Contacts" module="Siliconsalad_Contacts" action="contacts/test/index" parent="Siliconsalad_Contacts" sortOrder="20" dependsOnModule="Siliconsalad_Contacts" resource="Siliconsalad_Contacts::contacts"/>
+    </menu>
+</config>
